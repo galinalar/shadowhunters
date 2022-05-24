@@ -1,0 +1,194 @@
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+img{ 
+width: 50%; 
+height: 100%;
+float: right; 
+border: 1px solid rgb(100, 149, 237); 
+border-radius: 10px/20px; 
+box-shadow: 5px 5px 10px rgba(0,0,0,.5); 
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+#info{
+background-color:#e6bc53;
+}
+a:link {
+  color: #497DDD;  
+}
+a:visited {
+  color: #497DDD;
+}
+a:hover {
+  color: #497DDD; 
+}
+a:active {
+  color: #497DDD; 
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+.menu{ 
+margin-top:10px;
+width: 30%; 
+background-color: rgb(245, 212, 169); 
+padding: 23px 50px; 
+border: 1px solid rgb(252,101,18); 
+border-radius: 10px/20px; 
+box-shadow: 5px 5px 10px rgba(0,0,0,.5); 
+} 
+body{  
+border: 2px solid rgb(75, 75, 75); 
+box-shadow: 0 0 20px 10px rgba(74, 112, 139, .7); 
+width: 1000px; 
+margin-top:40px; 
+margin-left:auto; 
+margin-right: auto; 
+padding:25px
+}
+h1{ 
+font-size:2.5em; 
+font-family:"Times New Roman", Times, serif; 
+text-align:center; 
+letter-spacing:2px; 
+color:rgb(248, 248, 255); 
+text-transform:uppercase; 
+background-color:rgb(100, 149, 237); 
+padding: 5px 15px 2px 15px; 
+margin: 0 -15px 20px -15px; 
+} 
+h2{ 
+font-size: 1.5em; 
+font-family: "Times New Roman", Times, serif;  
+color: rgb(100, 149, 237); 
+border-top: 2px dotted rgb(93, 71, 139); 
+border-bottom: 2px dotted rgb(93, 71, 139); 
+padding-top: 5px; 
+padding-bottom: 5px; 
+margin: 15px 0 5px 0; 
+} 
+.inventory { 
+font-family: "Times New Roman", Times, serif;  
+width: 100%; 
+margin-top: 25px; 
+border-collapse: collapse; 
+} 
+.inventory td, .inventory th { 
+font-size: 1.1em; 
+border: 1px solid #DDB575; 
+padding: 3px 7px 2px 7px; 
+} 
+.inventory th { 
+text-transform:uppercase; 
+text-align: left; 
+padding-top: 5px; 
+padding-bottom: 4px; 
+background: rgb(235,166,77); 
+color: white; 
+} 
+.inventory tr:nth-of-type(even){ 
+background-color: rgba(255,255,255,.1); 
+} 
+.inventory tr:nth-of-type(odd){ 
+background-color: rgba(229,76,16,.1); 
+} 
+.footer{
+	font-size:0.5em; 
+font-family:"Times New Roman", Times, serif; 
+text-align:center; 
+letter-spacing:2px; 
+text-transform:uppercase; 
+background-color:rgb(231, 250, 145); 
+padding: 5px 15px 2px ; 
+margin-top: 30px;
+	
+}
+.m-menu {
+    margin: 0;
+    padding: 15 px;    
+    text-align:center;
+    border: 3px solid #6495ED;
+    background: #6495ED; 
+height: 70px;
+}
+.m-menu form {
+float:left;  
+}
+.m-menu > li {
+    position: relative;
+    display: inline-block;
+ }
+.m-menu a {
+    display: block;
+    margin-left: -7px;
+    padding: 24px;
+    color: #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.m-menu a:hover {
+    background: #6495ED;
+}
+.m-menu .s-menu {
+    left: -10px;
+    position: absolute;
+    display: none;
+    width: 155px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #6495ED;
+}
+.m-menu .s-menu a {
+	margin-left: 0px;
+    border: 1px solid #000;
+}
+.m-menu > li:hover .s-menu {
+    display: block;
+}
+header {
+ display: block; /* Для старых браузеров */
+ height: 405px; /* Высота шапки */
+ background: url(шапка.jpg) repeat-x center bottom;
+
+}
+.header-bg img {
+    position: relative; /* Относительное позиционирование */
+    top: 40px; /* Сдвигаем картинку вниз */
+   }
+h3{ 
+font-size:2em; 
+font-family:"Times New Roman", Times, serif; 
+text-align:center; 
+letter-spacing:2px; 
+color: rgb(100, 149, 237); 
+text-transform:uppercase; 
+padding: 5px 15px 2px 15px; 
+margin: 0 -15px 20px -15px; 
+}

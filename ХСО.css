@@ -102,16 +102,16 @@ margin-top: 10px;
 background-color:#e6bc53;
 }
 a:link {
-  color: #154088;  
+  color: #497DDD;  
 }
 a:visited {
-  color: #154088;
+  color: #497DDD;
 }
 a:hover {
-  color: #154088; 
+  color: #e6bc53; 
 }
 a:active {
-  color: #154088; 
+  color: #497DDD; 
 }
 .footer{
 	font-size:0.5em; 
